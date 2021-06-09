@@ -1,6 +1,6 @@
 // imports
 // importing top navigation
-import MainNav from "./components/top-navigation-area/top-nav";
+import MainNav from "./components/top-navigation-area/Top-nav";
 // importing Main
 import Main from "./components/main/Main";
 // importing Footer
