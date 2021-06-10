@@ -1,18 +1,17 @@
 import React from "react";
 
-import Beverage from "../Fontawesome";
+// import Beverage from "../Fontawesome";
 
 // importing Fontawesome elements
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faHome,
   faPaperPlane,
   faCompass,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
-import { faInstagram, google } from "@fortawesome/free-brands-svg-icons";
-// << this DOES NOT WORK!
+// import { faInstagram, faGoogle } from "@fortawesome/free-brands-svg-icons";
+// << this only works now because of another installed package
 
 function MainNav() {
   return (
@@ -20,11 +19,20 @@ function MainNav() {
       <div className="logo-container"></div>
       <div className="searchbar-container">This is searchbar</div>
       <div className="nav-menu-container">
-        <FontAwesomeIcon icon={faHome} />
-        {/* <FontAwesomeIcon icon={faInstagram} /> */}
-        <FontAwesomeIcon icon={google} />
+        <a href="#Home" className="home-icon">
+          <FontAwesomeIcon icon={faHome} />
+        </a>
+        <a href="#Messages" className="paper-plane-icon">
+          <FontAwesomeIcon icon={faPaperPlane} />
+        </a>
+        <a href="#Explore" className="compass-icon">
+          <FontAwesomeIcon icon={faCompass} />
+        </a>
+        <a href="#AccountActivity" className="heart-icon">
+          <FontAwesomeIcon icon={faHeart} />
+        </a>
       </div>
-      <Beverage />
+      {/* <Beverage /> */}
     </div>
   );
 }
