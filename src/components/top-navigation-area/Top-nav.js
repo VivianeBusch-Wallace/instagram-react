@@ -17,7 +17,7 @@ function MainNav() {
   return (
     <div className="top-nav-container">
       <div className="logo-container"></div>
-      <div className="searchbar-container">This is searchbar</div>
+      <div className="searchbar-container">This is a searchbar</div>
       <div className="nav-menu-container">
         <a href="#Home" className="home-icon">
           <FontAwesomeIcon icon={faHome} />
