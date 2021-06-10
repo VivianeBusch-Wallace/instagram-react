@@ -1,0 +1,110 @@
+[
+  {
+    "id": 0,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-01.png"
+  },
+  {
+    "id": 1,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-02.png"
+  },
+  {
+    "id": 2,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-03.png"
+  },
+  {
+    "id": 3,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-04.png"
+  },
+  {
+    "id": 4,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-05.png"
+  },
+  {
+    "id": 5,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-06.png"
+  },
+  {
+    "id": 6,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-07.png"
+  },
+  {
+    "id": 7,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-08.png"
+  },
+  {
+    "id": 8,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-09.png"
+  },
+  {
+    "id": 9,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-10.png"
+  },
+  {
+    "id": 10,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-11.png"
+  },
+  {
+    "id": 11,
+    "title": "Title",
+    "location": "Location",
+    "text": "Text of post",
+    "likes": 2345,
+    "comments": 3444,
+    "img": "./img/Pic-11.JPG"
+  }
+]
