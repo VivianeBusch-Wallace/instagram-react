@@ -19,17 +19,20 @@ function MainNav() {
       <div className="logo-container"></div>
       <div className="searchbar-container">This is a searchbar</div>
       <div className="nav-menu-container">
-        <a href="#Home" className="home-icon">
+        <a href="#Home" className="home-icon-link">
           <FontAwesomeIcon icon={faHome} />
         </a>
-        <a href="#Messages" className="paper-plane-icon">
+        <a href="#Messages" className="paper-plane-icon-link">
           <FontAwesomeIcon icon={faPaperPlane} />
         </a>
-        <a href="#Explore" className="compass-icon">
+        <a href="#Explore" className="compass-icon-link">
           <FontAwesomeIcon icon={faCompass} />
         </a>
-        <a href="#AccountActivity" className="heart-icon">
+        <a href="#AccountActivity" className="heart-icon-link">
           <FontAwesomeIcon icon={faHeart} />
+        </a>
+        <a href="#User" className="user-profile-pic">
+          User
         </a>
       </div>
       {/* <Beverage /> */}
