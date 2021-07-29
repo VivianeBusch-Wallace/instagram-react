@@ -15,14 +15,26 @@ body {
 .top-nav-container {
   background-color: aquamarine;
   @include flex(row, space-between);
+  padding: 1%;
+  height: 5vh;
+  width: 100vw;
   .logo-container {
+    padding: 0.5vw;
   }
   .searchbar-container {
     .searchbar {
+      background-color: #fafafa;
+      padding: 0.2rem;
     }
   }
   .nav-menu-container {
+    width: 40vw;
+    @include flex(row, space-between);
+
     a {
+      .fi {
+        font-size: 30px;
+      }
     }
   }
 }
