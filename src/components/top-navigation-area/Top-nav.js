@@ -1,7 +1,5 @@
 import React from "react";
 
-// import Beverage from "../Fontawesome";
-
 // importing Fontawesome elements
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,8 +8,6 @@ import {
   faCompass,
   faHeart,
 } from "@fortawesome/free-solid-svg-icons";
-// import { faInstagram, faGoogle } from "@fortawesome/free-brands-svg-icons";
-// << this only works now because of another installed package
 
 function MainNav() {
   return (
@@ -22,22 +18,21 @@ function MainNav() {
       </div>
       <div className="nav-menu-container">
         <a href="#Home" className="home-icon-link">
-          <FontAwesomeIcon icon={faHome} />
+          <FontAwesomeIcon icon={faHome} className="fi home-icon" />
         </a>
         <a href="#Messages" className="paper-plane-icon-link">
-          <FontAwesomeIcon icon={faPaperPlane} />
+          <FontAwesomeIcon icon={faPaperPlane} className="fi messages-icon" />
         </a>
         <a href="#Explore" className="compass-icon-link">
-          <FontAwesomeIcon icon={faCompass} />
+          <FontAwesomeIcon icon={faCompass} className="fi explore-icon" />
         </a>
         <a href="#AccountActivity" className="heart-icon-link">
-          <FontAwesomeIcon icon={faHeart} />
+          <FontAwesomeIcon icon={faHeart} className="fi activity-icon" />
         </a>
         <a href="#User" className="user-profile-pic">
           UserIcon
         </a>
       </div>
-      {/* <Beverage /> */}
     </div>
   );
 }

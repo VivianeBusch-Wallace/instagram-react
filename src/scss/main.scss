@@ -1,4 +1,5 @@
 @import "./fontawesome";
+@import "./mixins";
 
 body {
   background-color: #fafafa;
@@ -10,8 +11,18 @@ body {
   border: dodgerblue 2px dotted;
 }
 
-// Main Nav Styles
+// Main Nav Styles (top nav bar)
 .top-nav-container {
-  background-color: red;
-  display: flex;
+  background-color: aquamarine;
+  @include flex(row, space-between);
+  .logo-container {
+  }
+  .searchbar-container {
+    .searchbar {
+    }
+  }
+  .nav-menu-container {
+    a {
+    }
+  }
 }
