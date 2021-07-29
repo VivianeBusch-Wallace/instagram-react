@@ -17,7 +17,9 @@ function MainNav() {
   return (
     <div className="top-nav-container">
       <div className="logo-container">InstagramLogo</div>
-      <div className="searchbar-container">Searchbar</div>
+      <div className="searchbar-container">
+        <input type="text" placeholder="Search" className="searchbar" />
+      </div>
       <div className="nav-menu-container">
         <a href="#Home" className="home-icon-link">
           <FontAwesomeIcon icon={faHome} />
