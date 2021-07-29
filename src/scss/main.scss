@@ -33,20 +33,31 @@ body {
     width: 30vw;
     @include flex(row, space-between);
 
+    // links in navigation menu >>
     a {
       //     &:visited,
       //     &:active {
       //     color: black;
       //    }
+      @include flex(column, center, center);
+      // fontawesome icons of navigation menu >>
       .fi {
         color: black;
         font-size: 27px;
       }
+      // user profile image >>
       .user-profile-pic {
         width: 30px;
         height: 30px;
         border: rgb(200, 200, 200) 2px solid;
         border-radius: 50%;
+      }
+      // red indicators for updates (i.e. new messages, new likes, new posts in explore) >>
+      .indicator {
+        height: 7px;
+        width: 7px;
+        border-radius: 50%;
+        background-color: red;
       }
     }
   }
