@@ -14,7 +14,7 @@ function MainNav() {
     <div className="top-nav-container">
       <div className="logo-container">
         <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/320px-Instagram_logo.svg.png"
+          src="./images/320px-Instagram_logo.svg.webpg"
           alt="instagram logo"
           className="insta-logo"
         />
@@ -52,3 +52,11 @@ function MainNav() {
 }
 
 export default MainNav;
+
+// decide on one src >>
+// <img
+// src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/320px-Instagram_logo.svg.png"
+//  src="./images/320px-Instagram_logo.svg.webpg"
+//   alt="instagram logo"
+//   className="insta-logo"
+//   />
