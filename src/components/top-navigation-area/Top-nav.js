@@ -30,7 +30,6 @@ function MainNav() {
           <FontAwesomeIcon icon={faHeart} className="fi activity-icon" />
         </a>
         <a href="#User" className="user-profile-pic">
-          UserIcon
           <img
             src="./images/insta-profile-pic-cropped.png"
             alt="user-profile-pic"
