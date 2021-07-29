@@ -16,8 +16,8 @@ import {
 function MainNav() {
   return (
     <div className="top-nav-container">
-      <div className="logo-container"></div>
-      <div className="searchbar-container">This is a searchbar</div>
+      <div className="logo-container">InstagramLogo</div>
+      <div className="searchbar-container">Searchbar</div>
       <div className="nav-menu-container">
         <a href="#Home" className="home-icon-link">
           <FontAwesomeIcon icon={faHome} />
@@ -32,7 +32,7 @@ function MainNav() {
           <FontAwesomeIcon icon={faHeart} />
         </a>
         <a href="#User" className="user-profile-pic">
-          User
+          UserIcon
         </a>
       </div>
       {/* <Beverage /> */}
