@@ -12,7 +12,13 @@ import {
 function MainNav() {
   return (
     <div className="top-nav-container">
-      <div className="logo-container">InstagramLogo</div>
+      <div className="logo-container">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/320px-Instagram_logo.svg.png"
+          alt="instagram logo"
+          className="insta-logo"
+        />
+      </div>
       <div className="searchbar-container">
         <input type="text" placeholder="Search" className="searchbar" />
       </div>
