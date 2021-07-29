@@ -29,8 +29,8 @@ body {
   }
   .nav-menu-container {
     border: black 2px solid;
-
-    width: 30vw;
+    height: 2.8rem;
+    width: 30vh;
     @include flex(row, space-between);
 
     // links in navigation menu >>
@@ -39,7 +39,8 @@ body {
       //     &:active {
       //     color: black;
       //    }
-      @include flex(column, center, center);
+      height: 100%;
+      @include flex(column, space-between, center);
       // fontawesome icons of navigation menu >>
       .fi {
         color: black;
@@ -51,6 +52,7 @@ body {
         height: 30px;
         border: rgb(200, 200, 200) 2px solid;
         border-radius: 50%;
+        //align-self: flex-start;
       }
       // red indicators for updates (i.e. new messages, new likes, new posts in explore) >>
       .indicator {
