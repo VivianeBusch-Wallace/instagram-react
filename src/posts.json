@@ -13,8 +13,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 345,
+    "comments": 44,
     "img": "./img/Pic-02.png"
   },
   {
@@ -22,8 +22,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 25,
+    "comments": 5,
     "img": "./img/Pic-03.png"
   },
   {
@@ -31,8 +31,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 23,
+    "comments": 34,
     "img": "./img/Pic-04.png"
   },
   {
@@ -40,8 +40,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 27,
+    "comments": 11,
     "img": "./img/Pic-05.png"
   },
   {
@@ -49,8 +49,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 640,
+    "comments": 73,
     "img": "./img/Pic-06.png"
   },
   {
@@ -58,8 +58,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 233,
+    "comments": 180,
     "img": "./img/Pic-07.png"
   },
   {
@@ -67,8 +67,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 1578,
+    "comments": 124,
     "img": "./img/Pic-08.png"
   },
   {
@@ -76,8 +76,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 3361,
+    "comments": 472,
     "img": "./img/Pic-09.png"
   },
   {
@@ -85,8 +85,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 567,
+    "comments": 295,
     "img": "./img/Pic-10.png"
   },
   {
@@ -94,8 +94,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 3121,
+    "comments": 789,
     "img": "./img/Pic-11.png"
   },
   {
@@ -103,8 +103,8 @@
     "title": "Title",
     "location": "Location",
     "text": "Text of post",
-    "likes": 2345,
-    "comments": 3444,
+    "likes": 185,
+    "comments": 91,
     "img": "./img/Pic-11.JPG"
   }
 ]
