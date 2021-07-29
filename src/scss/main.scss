@@ -2,7 +2,7 @@
 @import "./mixins";
 
 body {
-  background-color: #fafafa;
+  background-color: #eeeeee;
 }
 * {
   margin: 0;
@@ -13,7 +13,7 @@ body {
 
 // Main Nav Styles (top bar with navigation)
 .top-nav-container {
-  background-color: aquamarine;
+  background-color: white;
   @include flex(row, space-between);
 
   height: 5vh;
@@ -28,11 +28,12 @@ body {
     border: blue 2px solid;
 
     .searchbar {
-      border: black 2px solid;
+      border: rgb(200, 200, 200) 2px solid;
       border-radius: 0.2rem;
       background-color: #fafafa;
       padding: 0.2rem;
       text-align: center;
+      font-size: 1rem;
     }
   }
   .nav-menu-container {
