@@ -32,7 +32,7 @@ function MainNav() {
         <a href="#User" className="user-profile-pic">
           UserIcon
           <img
-            src="./images/insta-profile-pic.png"
+            src="./images/insta-profile-pic-cropped.png"
             alt="user-profile-pic"
             className="user-profile-pic"
           />
