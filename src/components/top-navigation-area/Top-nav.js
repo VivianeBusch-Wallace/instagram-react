@@ -31,6 +31,11 @@ function MainNav() {
         </a>
         <a href="#User" className="user-profile-pic">
           UserIcon
+          <img
+            src="./images/insta-profile-pic.png"
+            alt="user-profile-pic"
+            className="user-profile-pic"
+          />
         </a>
       </div>
     </div>
